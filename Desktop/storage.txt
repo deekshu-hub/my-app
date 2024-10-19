@@ -1,0 +1,19 @@
+storage:
+
+
+lrs:
+
+it follows synchronous replication
+if dc fails complete isolation no redundancy
+
+zrs:
+
+it is also follows the synchronous replication
+if az1 fails 2az1 provides the stored data.
+
+Ra-grs:
+it reads the data from both location simultaneously
+it reduce the load.
+
+*the max delay for replication  is 16 mins its not go beyond it
+
